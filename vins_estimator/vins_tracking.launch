@@ -1,0 +1,3 @@
+<launch>
+    <node name="tracking" pkg="vins" type="vins_node" output="screen" args=" $(find vins)/../config/test/stereo_config.yaml" />
+</launch>
